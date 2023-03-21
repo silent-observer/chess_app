@@ -1,0 +1,29 @@
+#? stdtmpl | standard
+#proc genIndex(): string =
+#  result = ""
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <title>Chess</title>
+</head>
+<body>
+  <table id="chess-board"></table>
+  <div id="promotion-window-white" class="promotion-window">
+    <img src="resources/white_queen.png" id="prom-wq">
+    <img src="resources/white_rook.png" id="prom-wr">
+    <img src="resources/white_bishop.png" id="prom-wb">
+    <img src="resources/white_knight.png" id="prom-wk">
+  </div>
+  <div id="promotion-window-black" class="promotion-window">
+    <img src="resources/black_queen.png" id="prom-bq">
+    <img src="resources/black_rook.png" id="prom-br">
+    <img src="resources/black_bishop.png" id="prom-bb">
+    <img src="resources/black_knight.png" id="prom-bk">
+  </div>
+</body>
+</html>
